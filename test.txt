@@ -1,0 +1,4 @@
+ini_set('session.save_handler',$this->config->item('sess_driver'));
+ini_set('session.save_path',$this->config->item('sess_save_path'));
+ini_set('session.gc_maxlifetime',5);
+session_start();
